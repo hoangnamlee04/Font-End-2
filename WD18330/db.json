@@ -24,5 +24,13 @@
         "count": 259
       }
     }
+  ],
+  "users": [
+    {
+      "email": "vannamok047@gmail.com",
+      "password": "$2a$10$4QF8oaBd.yycaKvuLq.A.ewwktB.LZr3sASmI0GopitJGcIjAcC2S",
+      "username": "nam",
+      "id": 1
+    }
   ]
 }
