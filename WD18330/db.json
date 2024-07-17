@@ -31,6 +31,12 @@
       "password": "$2a$10$4QF8oaBd.yycaKvuLq.A.ewwktB.LZr3sASmI0GopitJGcIjAcC2S",
       "username": "nam",
       "id": 1
+    },
+    {
+      "email": "vannamok04@gmail.com",
+      "password": "$2a$10$tLhRg9Ub4FXtOKepHcUntecj0M4JxMbWGPCtKpvEQrGd2tsNX1xq2",
+      "username": "nam1",
+      "id": 2
     }
   ]
 }

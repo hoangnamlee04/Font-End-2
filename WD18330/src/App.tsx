@@ -1,13 +1,15 @@
 import { useRoutes } from "react-router-dom";
 
-import ProductDetail from "./pages/ProductDetail";
-import Homepage from "./pages/HomePage";
+import Header from "./components/Header";
 import Register from "./pages/Register";
+import Home from "./pages/Home";
+import ProductDetail from "./pages/ProductDetail";
+import Footer from "./components/Footer";
 
 const routeConfig = [
   {
     path: "/",
-    element: <Homepage />,
+    element: <Home />,
   },
   {
     path: "/register",
@@ -19,7 +21,13 @@ const routeConfig = [
 function App() {
   const routes = useRoutes(routeConfig);
 
-  return <main>{routes}</main>;
+  return (
+    <main>
+      <Header />
+      {routes}
+      <Footer />
+    </main>
+  );
 }
 
 export default App;

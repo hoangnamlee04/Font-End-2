@@ -1,7 +1,7 @@
 import React from "react";
 
-const Register = () => {
+const NotFound = () => {
   return <div></div>;
 };
 
-export default Register;
+export default NotFound;
