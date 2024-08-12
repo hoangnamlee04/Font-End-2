@@ -42,22 +42,21 @@ const Register = () => {
 
       {notification.message && (
         <div
-          className={`fixed top-4 mt-24 right-4 mb-4 p-4 rounded-md shadow-md h-[90px] w-[230px] font-bold flex items-center justify-center ${notification.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}
+          className={`mb-4 p-4 rounded-md shadow-md font-bold flex items-center justify-center ${notification.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}
         >
           {notification.message}
         </div>
       )}
 
-
       <form className='space-y-4' onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label className='block mb-1'>Username</label>
           <input
-            type='username'
+            type='text'
             id='username'
             className='w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500'
-            placeholder='username...'
-            {...register('username', { required: true })}
+            placeholder='Username...'
+            {...register('username', { required: 'Username là bắt buộc' })}
           />
           {errors.username && <span className='text-red-500'>{errors.username.message}</span>}
         </div>
@@ -68,18 +67,21 @@ const Register = () => {
             id='email'
             className='w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500'
             placeholder='Email...'
-            {...register('email', { required: true })}
+            {...register('email', { required: 'Email là bắt buộc' })}
           />
           {errors.email && <span className='text-red-500'>{errors.email.message}</span>}
         </div>
         <div>
-          <label className='block mb-1'>password</label>
+          <label className='block mb-1'>Mật khẩu</label>
           <input
             type='password'
             id='password'
             className='w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500'
-            placeholder='password...'
-            {...register('password', { required: true, minLength: 3 })}
+            placeholder='Mật khẩu...'
+            {...register('password', {
+              required: 'Mật khẩu là bắt buộc',
+              minLength: { value: 3, message: 'Mật khẩu phải có ít nhất 3 ký tự' }
+            })}
           />
           {errors.password && <span className='text-red-500'>{errors.password.message}</span>}
         </div>

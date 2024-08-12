@@ -69,7 +69,7 @@ const App = () => {
               <Route path='/'>
                 <Route index element={<Home products={products} />} />
                 {/* <Route path='/shop' element={<Shop />} /> */}
-                
+
                 <Route path='/detail/:id' element={<ProductDetail />} />
               </Route>
               {/* admin */}

@@ -1,116 +1,6 @@
 {
   "products": [
     {
-      "id": 4,
-      "title": "Red Lipstick",
-      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
-      "category": "beauty",
-      "price": 12.99,
-      "discountPercentage": 19.03,
-      "rating": 2.51,
-      "stock": 68,
-      "tags": ["beauty", "lipstick"],
-      "brand": "Chic Cosmetics",
-      "sku": "O5IF1NTA",
-      "weight": 5,
-      "dimensions": {
-        "width": 14.37,
-        "height": 13.94,
-        "depth": 14.6
-      },
-      "warrantyInformation": "Lifetime warranty",
-      "shippingInformation": "Ships in 2 weeks",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Leo Rivera",
-          "reviewerEmail": "leo.rivera@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Oscar Powers",
-          "reviewerEmail": "oscar.powers@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Carter Rivera",
-          "reviewerEmail": "carter.rivera@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 6,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.619Z",
-        "updatedAt": "2024-05-23T08:56:21.619Z",
-        "barcode": "9444582199406",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": ["https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"
-    },
-    {
-      "id": 5,
-      "title": "Red Nail Polish",
-      "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
-      "category": "beauty",
-      "price": 8.99,
-      "discountPercentage": 2.46,
-      "rating": 3.91,
-      "stock": 71,
-      "tags": ["beauty", "nail polish"],
-      "brand": "Nail Couture",
-      "sku": "YUIIIP4W",
-      "weight": 9,
-      "dimensions": {
-        "width": 8.11,
-        "height": 10.89,
-        "depth": 29.06
-      },
-      "warrantyInformation": "1 year warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Leo Rivera",
-          "reviewerEmail": "leo.rivera@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Evan Reed",
-          "reviewerEmail": "evan.reed@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Evelyn Sanchez",
-          "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 46,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.619Z",
-        "updatedAt": "2024-05-23T08:56:21.619Z",
-        "barcode": "3212847902461",
-        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
-      },
-      "images": ["https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png"],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png"
-    },
-    {
       "id": 6,
       "title": "Calvin Klein CK One",
       "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
@@ -119,7 +9,10 @@
       "discountPercentage": 0.32,
       "rating": 4.85,
       "stock": 17,
-      "tags": ["fragrances", "perfumes"],
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
       "brand": "Calvin Klein",
       "sku": "DZM2JQZE",
       "weight": 5,
@@ -178,7 +71,10 @@
       "discountPercentage": 18.64,
       "rating": 2.76,
       "stock": 41,
-      "tags": ["fragrances", "perfumes"],
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
       "brand": "Chanel",
       "sku": "K71HBCGS",
       "weight": 4,
@@ -237,7 +133,10 @@
       "discountPercentage": 17.44,
       "rating": 3.31,
       "stock": 91,
-      "tags": ["fragrances", "perfumes"],
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
       "brand": "Dior",
       "sku": "E70NB03B",
       "weight": 10,
@@ -296,7 +195,10 @@
       "discountPercentage": 11.47,
       "rating": 2.68,
       "stock": 3,
-      "tags": ["fragrances", "perfumes"],
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
       "brand": "Dolce & Gabbana",
       "sku": "1NBFK980",
       "weight": 5,
@@ -355,7 +257,10 @@
       "discountPercentage": 8.9,
       "rating": 2.69,
       "stock": 93,
-      "tags": ["fragrances", "perfumes"],
+      "tags": [
+        "fragrances",
+        "perfumes"
+      ],
       "brand": "Gucci",
       "sku": "FFKZ6HOF",
       "weight": 10,
@@ -414,7 +319,10 @@
       "discountPercentage": 0.29,
       "rating": 4.14,
       "stock": 47,
-      "tags": ["furniture", "beds"],
+      "tags": [
+        "furniture",
+        "beds"
+      ],
       "brand": "Annibale Colombo",
       "sku": "4KMDTZWF",
       "weight": 3,
@@ -473,7 +381,10 @@
       "discountPercentage": 9.58,
       "rating": 4.48,
       "stock": 16,
-      "tags": ["furniture", "bedside tables"],
+      "tags": [
+        "furniture",
+        "bedside tables"
+      ],
       "brand": "Furniture Co.",
       "sku": "OWPLTZYX",
       "weight": 10,
@@ -532,7 +443,10 @@
       "discountPercentage": 15.23,
       "rating": 4.11,
       "stock": 47,
-      "tags": ["furniture", "office chairs"],
+      "tags": [
+        "furniture",
+        "office chairs"
+      ],
       "brand": "Knoll",
       "sku": "RKHVJ4FE",
       "weight": 3,
@@ -591,7 +505,10 @@
       "discountPercentage": 11.22,
       "rating": 3.26,
       "stock": 95,
-      "tags": ["furniture", "bathroom"],
+      "tags": [
+        "furniture",
+        "bathroom"
+      ],
       "brand": "Bath Trends",
       "sku": "7OLTIEVO",
       "weight": 6,
@@ -650,7 +567,9 @@
       "discountPercentage": 1.97,
       "rating": 2.96,
       "stock": 9,
-      "tags": ["fruits"],
+      "tags": [
+        "fruits"
+      ],
       "sku": "QTROUV79",
       "weight": 8,
       "dimensions": {
@@ -692,7 +611,9 @@
         "barcode": "2517819903837",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Apple/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Apple/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Apple/thumbnail.png"
     },
     {
@@ -704,7 +625,9 @@
       "discountPercentage": 17.99,
       "rating": 2.83,
       "stock": 96,
-      "tags": ["meat"],
+      "tags": [
+        "meat"
+      ],
       "sku": "BWWA2MSO",
       "weight": 9,
       "dimensions": {
@@ -746,7 +669,9 @@
         "barcode": "8335515097879",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Beef%20Steak/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Beef%20Steak/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Beef%20Steak/thumbnail.png"
     },
     {
@@ -758,7 +683,10 @@
       "discountPercentage": 9.57,
       "rating": 2.88,
       "stock": 13,
-      "tags": ["pet supplies", "cat food"],
+      "tags": [
+        "pet supplies",
+        "cat food"
+      ],
       "sku": "C3F8QN6O",
       "weight": 9,
       "dimensions": {
@@ -800,7 +728,9 @@
         "barcode": "5503491330693",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/thumbnail.png"
     },
     {
@@ -812,7 +742,9 @@
       "discountPercentage": 10.46,
       "rating": 4.61,
       "stock": 69,
-      "tags": ["meat"],
+      "tags": [
+        "meat"
+      ],
       "sku": "G5YEHW7B",
       "weight": 7,
       "dimensions": {
@@ -869,7 +801,9 @@
       "discountPercentage": 18.89,
       "rating": 4.01,
       "stock": 22,
-      "tags": ["cooking essentials"],
+      "tags": [
+        "cooking essentials"
+      ],
       "sku": "Q6ZP1UY8",
       "weight": 8,
       "dimensions": {
@@ -911,7 +845,9 @@
         "barcode": "6707669443381",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/thumbnail.png"
     },
     {
@@ -923,7 +859,9 @@
       "discountPercentage": 11.44,
       "rating": 4.71,
       "stock": 22,
-      "tags": ["vegetables"],
+      "tags": [
+        "vegetables"
+      ],
       "sku": "6KGF2K6Z",
       "weight": 9,
       "dimensions": {
@@ -965,7 +903,9 @@
         "barcode": "2597004869708",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Cucumber/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Cucumber/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cucumber/thumbnail.png"
     },
     {
@@ -977,7 +917,10 @@
       "discountPercentage": 18.15,
       "rating": 2.74,
       "stock": 40,
-      "tags": ["pet supplies", "dog food"],
+      "tags": [
+        "pet supplies",
+        "dog food"
+      ],
       "sku": "A6QRCH37",
       "weight": 2,
       "dimensions": {
@@ -1019,7 +962,9 @@
         "barcode": "7957222289508",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/thumbnail.png"
     },
     {
@@ -1031,7 +976,9 @@
       "discountPercentage": 5.8,
       "rating": 4.46,
       "stock": 10,
-      "tags": ["dairy"],
+      "tags": [
+        "dairy"
+      ],
       "sku": "YA617RI7",
       "weight": 4,
       "dimensions": {
@@ -1073,7 +1020,9 @@
         "barcode": "7095702028776",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Eggs/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Eggs/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Eggs/thumbnail.png"
     },
     {
@@ -1085,7 +1034,9 @@
       "discountPercentage": 7,
       "rating": 4.83,
       "stock": 99,
-      "tags": ["seafood"],
+      "tags": [
+        "seafood"
+      ],
       "sku": "XNIH1MTA",
       "weight": 8,
       "dimensions": {
@@ -1127,7 +1078,9 @@
         "barcode": "4250692197342",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/thumbnail.png"
     },
     {
@@ -1139,7 +1092,9 @@
       "discountPercentage": 15.5,
       "rating": 4.28,
       "stock": 89,
-      "tags": ["vegetables"],
+      "tags": [
+        "vegetables"
+      ],
       "sku": "HU7S7VQ0",
       "weight": 7,
       "dimensions": {
@@ -1181,7 +1136,9 @@
         "barcode": "7583442707568",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/thumbnail.png"
     },
     {
@@ -1193,7 +1150,9 @@
       "discountPercentage": 18.51,
       "rating": 4.43,
       "stock": 8,
-      "tags": ["vegetables"],
+      "tags": [
+        "vegetables"
+      ],
       "sku": "Y4RM3JCB",
       "weight": 2,
       "dimensions": {
@@ -1235,7 +1194,9 @@
         "barcode": "8400326844874",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/thumbnail.png"
     },
     {
@@ -1247,7 +1208,9 @@
       "discountPercentage": 1.91,
       "rating": 3.5,
       "stock": 25,
-      "tags": ["condiments"],
+      "tags": [
+        "condiments"
+      ],
       "sku": "BTBNIIOU",
       "weight": 9,
       "dimensions": {
@@ -1289,7 +1252,9 @@
         "barcode": "0668665656044",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/thumbnail.png"
     },
     {
@@ -1301,7 +1266,9 @@
       "discountPercentage": 7.58,
       "rating": 3.77,
       "stock": 76,
-      "tags": ["desserts"],
+      "tags": [
+        "desserts"
+      ],
       "sku": "VEZMU1EQ",
       "weight": 5,
       "dimensions": {
@@ -1360,7 +1327,9 @@
       "discountPercentage": 5.45,
       "rating": 3.41,
       "stock": 99,
-      "tags": ["beverages"],
+      "tags": [
+        "beverages"
+      ],
       "sku": "M2K19S06",
       "weight": 2,
       "dimensions": {
@@ -1402,7 +1371,9 @@
         "barcode": "8546824122355",
         "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
       },
-      "images": ["https://cdn.dummyjson.com/products/images/groceries/Juice/1.png"],
+      "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Juice/1.png"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Juice/thumbnail.png"
     }
   ],
@@ -1412,6 +1383,18 @@
       "password": "$2a$10$Qe6nAmzHDY2DuEYDP2DJ8ea6GLIwzPl0O2lrAOWZpJz2H1VIidLA6",
       "username": "nam123123",
       "id": 3
+    },
+    {
+      "email": "vannamok041@gmail.com",
+      "password": "$2a$10$AGx/HE7tfLFBSS7Ny.RI5e/IiDoIj75Sjvvbxlzu0W37Nox2nmOSy",
+      "username": "nam123",
+      "id": 4
+    },
+    {
+      "email": "vannamok043@gmail.com",
+      "password": "$2a$10$32RUIepjI6b7ZXYI4IyhXegGdyVAJgE.q0r04kuuPe/nVIKV84Akq",
+      "username": "nam1rfs",
+      "id": 5
     }
   ]
 }

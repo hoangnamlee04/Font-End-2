@@ -28,14 +28,14 @@ const Login = () => {
       localStorage.setItem('user', JSON.stringify(data.user))
 
       if (data.user) {
-        setNotification({ message: 'Đăng nhập thành công !', type: 'success' })
+        setNotification({ message: 'Đăng nhập thành công!', type: 'success' })
         setTimeout(() => {
           navigate('/')
         }, 2000)
       }
     } catch (error) {
       console.error('Login error:', error)
-      alert('Đăng nhập thất bại. Vui lòng thử lại.')
+      alert('Đăng nhập thất bại')
     }
   }
 
@@ -45,7 +45,7 @@ const Login = () => {
 
       {notification.message && (
         <div
-          className={`fixed top-4 mt-24 right-4 mb-4 p-4 rounded-md shadow-md h-[90px] w-[230px] font-bold flex items-center justify-center ${notification.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}
+          className={`mb-4 p-4 rounded-md shadow-md font-bold flex items-center justify-center ${notification.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}
         >
           {notification.message}
         </div>

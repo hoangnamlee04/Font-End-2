@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "title": "sdasd3",
+      "price": "54645",
+      "category": "Điện tử",
+      "isShowProduct": true,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "vannamok047@gmail.com",
+      "password": "$2a$10$E/qFIbUOhoOKkjp8YsCGuedCOwz0KLFYNtLPcMmCMTT2xriPScbie",
+      "id": 1
+    }
+  ]
+}
